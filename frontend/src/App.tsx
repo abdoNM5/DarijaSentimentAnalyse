@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Search, Activity } from 'lucide-react';
-import { Tweet } from './model/Tweet';
+import type { Tweet } from './model/Tweet';
 import { DoughnutChart } from './components/DoughnutChart';
 import './index.css';
 

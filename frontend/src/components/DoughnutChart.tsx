@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import * as Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
-import { Tweet } from '../model/Tweet';
+import type { Tweet } from '../model/Tweet';
 
 interface Props {
   tweets: Tweet[];
