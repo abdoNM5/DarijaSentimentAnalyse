@@ -1,9 +1,10 @@
 export interface Tweet {
   id: string;
+  createdAt: Date;
   originalText: string;
-  sentimentType: number;
-  profileImageUrl: string;
+  text: string;
   userName: string;
   screenName: string;
-  createdAt: string;
+  profileImageUrl: string;
+  sentimentType: number;
 }
