@@ -1,7 +1,10 @@
-import React, { useMemo } from 'react';
-import * as Highcharts from 'highcharts';
-import HighchartsReact from 'highcharts-react-official';
+import { useMemo } from 'react';
+import Highcharts from 'highcharts';
+import HighchartsReactModule from 'highcharts-react-official';
 import type { Tweet } from '../model/Tweet';
+
+// Handle both ESM default and CJS exports
+const HighchartsReact = (HighchartsReactModule as any).default || HighchartsReactModule;
 
 interface Props {
   tweets: Tweet[];

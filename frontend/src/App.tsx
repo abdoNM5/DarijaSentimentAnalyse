@@ -63,8 +63,8 @@ function App() {
   return (
     <div className="container">
       <header className="header">
-        <h1>Darija Sentiment Analyzer</h1>
-        <p>Real-time Twitter sentiment analysis powered by Stanford CoreNLP</p>
+        <h1>Twitter Sentiment Analyzer</h1>
+        <p>Real-time tweet sentiment analysis powered by Stanford CoreNLP</p>
       </header>
 
       <div className="search-container glass-panel">
